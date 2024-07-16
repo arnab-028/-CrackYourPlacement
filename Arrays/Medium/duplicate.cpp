@@ -3,7 +3,7 @@
 
 class Solution {
 public:
-    std::vector<int> findresult(std::vector<int>& nums) {
+    std::vector<int> findDuplicates(std::vector<int>& nums) {
         std::unordered_set<int> value;
         std::vector<int> result;
 
